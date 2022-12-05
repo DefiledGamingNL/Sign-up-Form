@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Basic Form</title>
+		<link rel="stylesheet" href="assets/css/app.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<main>
+			<div class="mainContainer">
+				<div class="sideImageContainer">
+					<img src="assets/img/photo-1585202900225-6d3ac20a6962.avif" alt="" />
+					<div class="darkBackground">
+						<div class="logo">
+							<img src="assets/img/odin-lined.png" alt="odin Logo" />
+							<h2>Odin</h2>
+						</div>
+					</div>
+				</div>
+
+				<div class="secondRow">
+					<div class="subHeading">
+						<p>The design has a large background-image, so go find and download an image you want to use for that section.</p>
+					</div>
+					<h2>Let's do this!</h2>
+					<form class="myForm">
+						<div class="inputGroup">
+							<label for="firstName">First Name</label>
+							<input type="text" id="firstName" name="firstName" autocomplete="off" required />
+							<label for="email">Email</label>
+							<input type="email" id="email" name="email" autocomplete="off" required />
+							<label for="password">Password</label>
+							<input type="password" id="password" name="password" autocomplete="off" required />
+						</div>
+						<div class="inputGroup">
+							<label for="lastName">Last Name</label>
+							<input type="text" id="lastName" name="lastName" autocomplete="off" required />
+							<label for="phoneNumber">Phone Number</label>
+							<input type="text" id="phoneNumber" name="phoneNumber" autocomplete="off" required />
+							<label for="passwordRepeat">Repeat Password</label>
+							<input type="password" id="passwordRepeat" name="passwordRepeat" autocomplete="off" required />
+						</div>
+					</form>
+
+					<div class="button">
+						<button class="btn">Sign up</button>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
